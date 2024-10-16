@@ -56,8 +56,6 @@ The conclusions I found while doing this analysis:
 - **Diverse Employeers:** Industries that are respresented in the top 10 are varied from tech companies (Meta and SmartAsset) to healthcare (uclahheathcareers) and telecom (ATT&T). Worth noting that SmartAsset did make the list twice ($205,000 & $186,000).
 - **Job Title Variety:** The titles of the top 10 paying roles are varied including Director and Principal but also three times just 'Data Analyst' is included.
 
-![Top Paying Roles](project_sql\Assets\Query_2_top_paying_job_skills.png)
-
 ### 2. Top Paying Data Analyst Skills
 The goal of this analysis was to find out which skills are associated with the highest paying roles available in the job market. I utilized a left join in order to combined two data bases together allowing me to have each job posting display all associated skills. 
 
@@ -100,9 +98,6 @@ The conclusions I found while pulling this data was that there are a few specifi
 - **R** - Required in 4 job postings
 - **Snowflake, Pandas, and Excel** - Each required in 3 job postings
 - **Azure, Bitbucket, and Go** - Each required in 2 job postings
-
-![Top Skills for High Paying Roles](project_sql\Assets\Query_2_top_paying_job_skills.png)
-
 
 ### 3. Most In-Demand Skills
 The goal of this investigation was to see out of all the job postings, which skills are asked for the most regardless of salary (included the roles that did not state salaries.) This gave an insight on any skills that may be less specialized and more sought after across all Data Analyst roles. This query allowed me to practice and improve on the inner join function as well as count. In doing so I was able to sort the data by the number of times each skill was mentioned in all of the open roles. 
@@ -273,9 +268,20 @@ This data was interesting as it showed the usual skills at the top:
 
 # What I Learned
 
-I started this project as a way to get my feet wet with some technical skills as I am pursing a more technical career path. Starting with limited knowledge on SQL not only was I able to develop some of the basic skills such as "SELECT" and "FROM" but to be able to use Joins, subqueries and CTEs. While this course is labeled an SQL course, the skills it helped develop with PostgreSQL 
+I started this project as a way to get my feet wet with some technical skills as I am pursing a more technical career path. 
+- **SQL:** Starting with limited knowledge on SQL not only was I able to develop some of the basic skills such as "SELECT" and "FROM" but to be able to use Joins, subqueries and CTEs. I now feel confident that I can manipulate tables and pull data from large data sets to analyze exactly what I need in a streamlined approach.
+- **PostgreSQL:** While this course is labeled an SQL course, there were also database management skills that I gained through PostgreSQL. 
+- **VS Code:** This was a greater skill learned as it tought me not only how to write SQL queries, but how to upload to GitHub as well as include JSON files for futher detail and write README files as this to help round out my report and findings.
 
 # Conclusions
 
+### Insights
+1. **Top-Paying Data Analyst Jobs:** There is a wide range of salarys in the top 10 paying remote data analyst jobs, highest being $650,000.
+2. **Skills for Top Paying Jobs:** Skills required for the top paying jobs seemed pretty clear that it would be a database skill (SQL), programming skill (Python), and data visulization skill (Tableau).
+3. **Most In-Demand Skills:** Most in demand skills followed similar path as the skills for highest paying jobs, leading me to believe that entry level or lower level roles require good base to build on and would be smart to learn and develop these to progress financially as a data analyst.
+4. **Top Paying Skills:** Top paying skills were not surprising to me as they were quite specialized, but the salary did seem to align with a specialized skill set.
+5. **Optimal Skills:** SQL came out as a clear number 1 skill to obtain as a data analyst. It is highly sought after as well as high average salary. Other skills that were repeatedly at the top of the lists are Python and Tableau.
 
+### Closing Thoughts
 
+I am very happy that I completed this project, as it taught me many different skills not just SQL. To look through this README and see all the different things learned, pulled, manipulated. Not only is it a great feeling learning a new skills but to see that skill be put towards creating something is really great too. I can not wait to start building on these tools and hopefully have it take me to the next jouney in my career (which now I also have a lot of market research done for).
